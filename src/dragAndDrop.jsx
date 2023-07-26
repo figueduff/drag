@@ -92,6 +92,6 @@ function DragAndDrop() {
       </div>
     </>
   );
-};
+}
 
 export default DragAndDrop;

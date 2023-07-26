@@ -54,15 +54,15 @@ function DragAndDrop() {
       newFiles.push(files[i]);
     }
     setImagenes((prev) => [...prev, ...newFiles]);
-    inputRef.current.value = '';
-  };
+    inputRef.current.value = ''
+  }
 
   const deleteImage = (id) => {
     setImagenes((prev) => prev.filter((imagen) => imagen !== id));
-    inputRef.current.value = '';
-  };
+    inputRef.current.value = ''
+  }
 
-  console.log(imagenes);
+  console.log(imagenes)
 
   return (
     <>
